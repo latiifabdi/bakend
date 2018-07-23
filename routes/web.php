@@ -11,6 +11,10 @@
 |
 */
 
+
+Route::resource("/cart", "CartController");
+
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

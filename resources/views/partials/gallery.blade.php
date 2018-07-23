@@ -13,6 +13,9 @@
 			<li class="mr-1">
 				<a class="no-underline mr-4 bg-white inline-block py-3 px-6 rounded text-blue hover:text-blue-darker font-semibold" href="/{{ 3 }}/#shop">Wholesale products</a>
 			</li>
+			<li class="mr-1">
+				<a class="no-underline mr-4 bg-white inline-block py-3 px-12 rounded text-blue hover:text-blue-darker font-semibold" href="/cart">Cart</a>
+			</li>
 			
 		</ul>
 		

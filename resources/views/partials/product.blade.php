@@ -1,7 +1,7 @@
 <div id="product-and-services" class="hello text-light-blue" style="background: #042449; min-height: 500px;">
 	<div class="container mx-auto">
 		<div class="text-center">
-			<h1 class="mb-4 text-white pt-30 pb-4">Product & Services</h1>
+			<h1 class="mb-4 text-white pt-30 pb-4">Products & Services</h1>
 		</div>
 		<div class="grid grid-gap py-12 px-16">
 			<div>
