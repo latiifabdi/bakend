@@ -11,6 +11,12 @@
 |
 */
 
+Route::get("/thanks", "ThanksController@index");
+
+Route::resource("/cart", "CartController");
+
+Route::get("/order", "OrderController@index");
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

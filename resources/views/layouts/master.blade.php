@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="/css/slick-theme.css">
 		<link rel="stylesheet" href="/css/main.css">
 
+		@yield('style')
+
 
 	</head>
 	<body class="font-sans text-white font-sans">

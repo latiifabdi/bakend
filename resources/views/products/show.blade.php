@@ -20,6 +20,11 @@
 						<span class="text-white font-bold">
 							${{ $product->price }}
 						</span>
+						<form method="post" action="/cart">
+							@csrf
+							<input type="hidden" name="productId" value="{{ $product->id }}">
+							<button class="no-underline py-3 px-6 shadow-lg bg-brand text-white rounded-lg block my-8 w-1/4">Add to Cart</button>
+						</form>
 					</div>
 				</div>
 			</div>
