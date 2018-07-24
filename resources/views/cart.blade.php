@@ -70,6 +70,7 @@
             </table>
 			
             <a href="{{ url('/#shop') }}" class="btn btn-primary btn-lg mb-12">Continue Shopping</a> &nbsp;
+            <a href="{{ url('/order') }}" class="btn btn-info btn-lg mb-12">Complete order</a> &nbsp;
 
            {{--  <div style="float:right" class="mb-8">
                 <form action="{{ url('/emptyCart') }}" method="POST">
