@@ -17,9 +17,13 @@
 							{{ $product->description }}
 						</p>
 
-						<span class="text-white font-bold">
+						<span class="mb-4 text-white font-bold">
 							${{ $product->price }}
 						</span>
+						<p class="my-4 block text-white">
+							Minimum Order Quantity:  <span class="font-bold"> {{ $product->minimum_quantity }}</span>
+						</p>
+
 						<form method="post" action="/cart">
 							@csrf
 							<input type="hidden" name="productId" value="{{ $product->id }}">

@@ -3,17 +3,17 @@
 		<div class="text-center">
 			<h1 class="mb-4 text-white pb-8 pt-32">Our Shop</h1>
 		</div>
-		<ul class="lg:w-3/4 list-reset flex ml-16">
-			<li class="-mb-px mr-1">
+		<ul class="lg:w-3/4 list-reset flex flex-wrap ml-16">
+			<li class="mb-4 mr-1">
 				<a class="no-underline mr-4 bg-white inline-block py-3 px-4 round text-blue-dark font-semibold" href="/{{ 1 }}/#shop">Customizable products</a>
 			</li>
-			<li class="mr-1">
+			<li class="mr-1 mb-4 ">
 				<a class="no-underline mr-4 bg-white inline-block py-3 px-4 rounded text-blue hover:text-blue-darker font-semibold" href="/{{ 2 }}/#shop">Available for purchase</a>
 			</li>
-			<li class="mr-1">
+			<li class="mr-1 mb-4 ">
 				<a class="no-underline mr-4 bg-white inline-block py-3 px-6 rounded text-blue hover:text-blue-darker font-semibold" href="/{{ 3 }}/#shop">Wholesale products</a>
 			</li>
-			<li class="mr-1 hidden lg:block">
+			<li class="mr-1">
 				<a class="no-underline mr-4 bg-white inline-block py-3 px-12 rounded text-blue hover:text-blue-darker font-semibold" href="/cart">Cart</a>
 			</li>
 			
