@@ -3,7 +3,7 @@
 		<div class="text-center">
 			<h1 class="mb-4 text-white pb-8 pt-32">Our Shop</h1>
 		</div>
-		<ul class="w-3/4 list-reset flex ml-16">
+		<ul class="lg:w-3/4 list-reset flex ml-16">
 			<li class="-mb-px mr-1">
 				<a class="no-underline mr-4 bg-white inline-block py-3 px-4 round text-blue-dark font-semibold" href="/{{ 1 }}/#shop">Customizable products</a>
 			</li>
